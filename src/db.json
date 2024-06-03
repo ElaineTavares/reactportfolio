@@ -2,14 +2,14 @@
     {
     "capa":"/projeto_organopets.png",
     "titulo":"Organo Pets",
-    "descricao": "Projeto que cria cards bonitinhos para os seus pets.",
+    "descricao": "Projeto que cria cards bonitinhos com as fotos dos seus pets.",
     "tecnologias":"HTML, CSS, JavaScript e React.",
     "link": "https://organopets.vercel.app/"
 },
 {
     "capa":"/projeto_bartenders.png",
     "titulo":"Bartenders",
-    "descricao": "Página web interativa, permite conexão entre pessoas.",
+    "descricao": "Página web interativa, mostra detalhes dos produtos ao passar o mouse por cima e permite conexão entre pessoas.",
     "tecnologias":"HTML, CSS e JavaScript.",
     "link": "https://bartenders-eta.vercel.app/"
 },
@@ -30,7 +30,7 @@
 {
     "capa":"/projeto_hulu.png",
     "titulo":"Streaming",
-    "descricao": "Desenvolvi um projetinho paea focar no conhecimento de HTML e CSS, site modelo: hulu.com.",
+    "descricao": "Repliquei um projetinho para focar no conhecimento de HTML e CSS, site modelo: hulu.com.",
     "tecnologias":"HTML, CSS e JavaScript.",
     "link": "https://hulu-teal.vercel.app/"
 },
