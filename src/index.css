@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  background-image: url('./background.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}

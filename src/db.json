@@ -1,0 +1,44 @@
+[
+    {
+    "capa":"/projeto_organopets.png",
+    "titulo":"Organo Pets",
+    "descricao": "Projeto que cria cards bonitinhos para os seus pets.",
+    "tecnologias":"HTML, CSS, JavaScript e React.",
+    "link": "https://organopets.vercel.app/"
+},
+{
+    "capa":"/projeto_bartenders.png",
+    "titulo":"Bartenders",
+    "descricao": "Página web interativa, permite conexão entre pessoas.",
+    "tecnologias":"HTML, CSS e JavaScript.",
+    "link": "https://bartenders-eta.vercel.app/"
+},
+{
+    "capa":"/projeto_instituto_capoeira.png",
+    "titulo":"Instituto Capoeira Social",
+    "descricao": "Projeto Desenvolvido como voluntária para Organização sem fins lucrativos.",
+    "tecnologias":"HTML, CSS e JavaScript.",
+    "link": "https://gerando-falcoes.vercel.app/"
+},
+{
+    "capa":"/projeto_consultora_imobiliaria.png",
+    "titulo":"Consultora Imobiliária",
+    "descricao": "Projeto desenvolvido como freelancer para profissional imobiliária autônoma.",
+    "tecnologias":"HTML, CSS e JavaScript.",
+    "link": "https://cristianecorretora.vercel.app/"
+},
+{
+    "capa":"/projeto_hulu.png",
+    "titulo":"Streaming",
+    "descricao": "Desenvolvi um projetinho paea focar no conhecimento de HTML e CSS, site modelo: hulu.com.",
+    "tecnologias":"HTML, CSS e JavaScript.",
+    "link": "https://hulu-teal.vercel.app/"
+},
+{
+    "capa":"/projeto_mercado.png",
+    "titulo":"E-Commerce",
+    "descricao": "Projeto desenvolvido durante o curso Programador Web Completo.",
+    "tecnologias":"HTML, CSS, JavaScript e Bootstrap.",
+    "link": "https://mercadoecommerce.vercel.app/"
+}
+]
