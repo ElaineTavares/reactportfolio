@@ -49,17 +49,20 @@
     width: 100%;
 }
 
-.projetos .container .card h2{
+.projetos .container .card h3{
     font-size: 1.5rem;
     height: 50px;
-    margin-bottom: 30px;
+    text-align: center;
+  
     /* border: 2px solid white; */
  }
 
 .projetos .container .card .descricao{
    text-align: justify;
-   height: 80px;
+   margin-top: 20px;
    /* border: 2px solid white; */
+   height: 160px;
+
 }
 
 .projetos .botao{

@@ -12,7 +12,7 @@ export default function Projetos(props) {
                 return <div className="card">
                             <img src={item.capa} alt={item.titulo} />
                             <div className="texto">
-                                <h2>{item.titulo}</h2>
+                                <h3>{item.titulo}</h3>
                                 <p className='descricao'>{item.descricao}</p>
                                 <p> <strong>Tecnologias: </strong>{item.tecnologias}</p>
                             </div>

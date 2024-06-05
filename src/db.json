@@ -2,7 +2,7 @@
     {
     "capa":"/projeto_organopets.png",
     "titulo":"Organo Pets",
-    "descricao": "Projeto que cria cards bonitinhos com as fotos dos seus pets.",
+    "descricao": "Projeto que cria cards bonitinhos com as fotos dos seus pets, tem a funcionalidade de excluir card e alterar a cor.",
     "tecnologias":"HTML, CSS, JavaScript e React.",
     "link": "https://organopets.vercel.app/"
 },
@@ -16,14 +16,14 @@
 {
     "capa":"/projeto_instituto_capoeira.png",
     "titulo":"Instituto Capoeira Social",
-    "descricao": "Projeto Desenvolvido como voluntária para Organização sem fins lucrativos.",
+    "descricao": "Projeto Desenvolvido como voluntária para Organização sem fins lucrativos. Exibe os serviços sociais fornecidos e página de doações.",
     "tecnologias":"HTML, CSS e JavaScript.",
     "link": "https://gerando-falcoes.vercel.app/"
 },
 {
     "capa":"/projeto_consultora_imobiliaria.png",
     "titulo":"Consultora Imobiliária",
-    "descricao": "Projeto desenvolvido como freelancer para profissional imobiliária autônoma.",
+    "descricao": "Projeto desenvolvido como freelancer para profissional imobiliária autônoma. Possui formulário onde os dados preenchidos pelo usuário são capturados diretamente para o e-mail.",
     "tecnologias":"HTML, CSS e JavaScript.",
     "link": "https://cristianecorretora.vercel.app/"
 },
