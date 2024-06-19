@@ -8,12 +8,14 @@
 
 .apresentacao .container{   
     margin-left: 140px;
+  
 }
 
 .apresentacao h1{
     font-size: 3rem;
     margin-top: 20px;
     margin-bottom: 30px;
+    position: relative;   
 }
 
 .apresentacao p{
@@ -22,6 +24,52 @@
     margin-bottom: 50px;
     width: 50%;
 }
+
+.apresentao h1 span{
+    position: relative;
+}
+
+.apresentacao h1 span::before{
+    content: "";
+    color: rgba(184, 84, 232, 1);
+    animation: palavras 20s infinite; 
+}
+
+.apresentacao h1 span::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    border-left: 2px solid #fff;
+    top: 5px;
+    animation: cursor 0.8s infinite, digita 20s steps(15) infinite;
+    width: 49%;
+    right: 380px;   
+    background-color: black;
+}
+
+@keyframes palavras {
+  
+    0%, 100%{
+        content: "Desenvolvedora Front End";
+    }
+
+}
+
+@keyframes cursor {
+    0%{
+        border-left: 2px solid black;
+    }
+ }
+
+ @keyframes digita {
+    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 80%, 95%{
+        width: 0%;
+    }
+    5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85%{
+        width:49%;
+    }
+ }
+
 
 @media (max-width: 1200px){
     .apresentacao p{
