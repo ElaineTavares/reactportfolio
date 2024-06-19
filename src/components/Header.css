@@ -70,13 +70,7 @@
 }
 
 @media(max-width: 891px){
-    .header{
-        align-items: center; 
-        border: 2px solid red;
-        justify-content: center;
-        gap: 200px;
-    }
-
+   
    .header .links{
     flex-flow: column;
    }
