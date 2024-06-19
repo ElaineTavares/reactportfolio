@@ -4,7 +4,7 @@
     "titulo":"Organo Pets",
     "descricao": "Projeto que cria cards bonitinhos com as fotos dos seus pets, tem a funcionalidade de excluir card e alterar a cor.",
     "tecnologias":"HTML, CSS, JavaScript e React.",
-    "link": "https://organopets.vercel.app/"
+    "link": "https://organopet.vercel.app/"
 },
 {
     "capa":"/projeto_bartenders.png",
