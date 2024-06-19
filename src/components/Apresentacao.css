@@ -7,8 +7,8 @@
 }
 
 .apresentacao .container{   
-    margin-left: 140px;
-    position: relative;
+    margin: 0 auto;
+    /* border: 2px solid blue; */
   
 }
 
@@ -16,7 +16,6 @@
     font-size: 3rem;
     margin-top: 20px;
     margin-bottom: 30px;
-    position: relative;   
 }
 
 .apresentacao p{
@@ -31,42 +30,6 @@ span{
   
     
 }
-
-.cursor{
-    content: "";
-    /* border: 2px solid white; */
-    height:50px;
-    animation: cursor 0.8s infinite;
-    position: absolute;
-    top: 63px;
-    left:285px;
-    width: 630px;
-   
-}
-
-
-@keyframes palavras {
-  
-    0%, 100%{
-        content: "Desenvolvedora Front End";
-    }
-
-}
-
-/* @keyframes cursor {
-    0%{
-        border: 2px solid black;
-    }
- } */
-
- /* @keyframes digita {
-    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 80%, 95%{
-        width: 0%;
-    }
-    5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85%{
-        width:51%;
-    }
- } */
 
 
 @media (max-width: 1200px){
