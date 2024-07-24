@@ -7,6 +7,13 @@
     "link": "https://organopet.vercel.app/"
 },
 {
+    "capa":"/projeto_bookhub.png",
+    "titulo":"Book Hub",
+    "descricao": "Projeto que exibe os livros de acordo com o que o usuário digitar, tem a funcionalidade de favoritar o livro escolhido.",
+    "tecnologias":"HTML, CSS, JavaScript e React.",
+    "link": "https://bookhub-zeta.vercel.app/"
+},
+{
     "capa":"/projeto_bartenders.png",
     "titulo":"Bartenders",
     "descricao": "Página web interativa, mostra detalhes dos produtos ao passar o mouse por cima e permite conexão entre pessoas.",

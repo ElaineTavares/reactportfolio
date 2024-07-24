@@ -15,7 +15,6 @@
 .apresentacao h1{
     font-size: 3rem;
     margin-top: 20px;
-    margin-bottom: 30px;
 }
 
 .apresentacao p{
@@ -27,8 +26,7 @@
 
 span{
     color: rgba(184, 84, 232, 1);
-  
-    
+    font-size: 2rem;  
 }
 
 
