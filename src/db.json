@@ -1,5 +1,12 @@
 [
     {
+        "capa":"/projeto_reactdnc.png",
+        "titulo":"Projeto React",
+        "descricao": "Projeto em construção, terá escolha de idioma e formulário com validações",
+        "tecnologias":"HTML, CSS, JavaScript e React.",
+        "link": "https://reactdnc.vercel.app/"
+    },
+    {
     "capa":"/projeto_organopets.png",
     "titulo":"Organo Pets",
     "descricao": "Projeto que cria cards bonitinhos com as fotos dos seus pets, tem a funcionalidade de excluir card e alterar a cor.",
