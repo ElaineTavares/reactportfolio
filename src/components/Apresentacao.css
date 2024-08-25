@@ -4,12 +4,14 @@
     padding-top: 150px;
     padding-bottom: 50px;
     display: flex;
+    justify-content: center;
+    padding-inline: 80px;
+    position: relative;
 }
 
 .apresentacao .container{   
-    margin: 0 auto;
     /* border: 2px solid blue; */
-  
+    width: 100%;  
 }
 
 .apresentacao h1{
@@ -21,7 +23,7 @@
     text-align: justify;
     font-size: 18px;
     margin-bottom: 50px;
-    width: 50%;
+    
 }
 
 span{
@@ -29,29 +31,66 @@ span{
     font-size: 2rem;  
 }
 
+.apresentacao .spiral-container{
+    width: 50%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    gap: 80px;
+    position: absolute;
+    top: 350px;
+}
 
-@media (max-width: 1200px){
-    .apresentacao p{
-        width: 60%;
+.spiral-container .icones{
+    display: flex;
+    gap: 80px;
+}
+
+.apresentacao .spiral-container img{
+    top: 50%;
+    left: 50%;
+    transform-origin: 0 0;
+    animation: spiral 5s linear infinite;
+    width: 80px;
+    z-index: 9999;
+}
+.img:nth-child(1) {
+    transform: rotate(0deg) translateX(50px);
+}
+
+.img:nth-child(2) {
+    transform: rotate(90deg) translateX(50px);
+    animation-delay: 0.5s;
+}
+
+.img:nth-child(3) {
+    transform: rotate(180deg) translateX(50px);
+    animation-delay: 1s;
+}
+
+.img:nth-child(4) {
+    transform: rotate(270deg) translateX(50px);
+    animation-delay: 1.5s;
+}
+.img:nth-child(4) {
+    transform: rotate(350deg) translateX(50px);
+    animation-delay: 2s;
+}
+
+@keyframes spiral {
+    0% {
+        transform: rotate(0deg) translateX(180px);
+    }
+    100% {
+        transform: rotate(360deg) translateX(180px);
     }
 }
 
-@media (max-width: 991px){
-    .apresentacao p{
-        width: 75%;
-    }
-    .apresentacao .container{   
-        margin-left: 0px;
-    }
+ @media (max-width: 801px){
+    .apresentacao .spiral-container{
+    display: none;
+}
 }
 
-@media (max-width: 767px){
-    .apresentacao p{
-        width: 100%;
-    }
-
-    .apresentacao .container{   
-        margin: 0 auto;
-        width: 90%;
-    }
-}

@@ -2,6 +2,11 @@ import React from 'react'
 import './Apresentacao.css'
 import Botao from './Botao'
 import { useEffect, useState } from 'react'
+import html from '../imagens/tecnologia_html.svg'
+import css from '../imagens/tecnologia_css.svg'
+import js from '../imagens/tecnologia_js.svg'
+import react from '../imagens/tecnologia_react.svg'
+import github from '../imagens/tecnologia_github.svg'
 
 export default function Apresentacao() {
   const [text, setText] = useState('');
@@ -46,7 +51,18 @@ export default function Apresentacao() {
               Além disso, tive a oportunidade de atuar como voluntária em Desenvolvimento Front-end no Instituto Capoeira Social, onde pude aplicar e aprimorar meus conhecimentos em um projeto real. <br /> Atualmente, sou universitária no curso Tecnólogo de Sistemas para Internet, o que reforça minha dedicação e compromisso em consolidar minha carreira na área de Desenvolvimento Web.
             </p>
             <Botao texto="Currículo" link="https://drive.google.com/file/d/1wKbyEV9JdjAJgWDfTpMNsyhEH2DMRILb/view?usp=sharing"/>
-        </div>   
+        </div> 
+        <div class="spiral-container">
+          <div className='icones'>
+              <img className='html' src={html} alt="html" />
+              <img src={css} alt="css" />
+          </div>
+          <div className='icones'>
+              <img src={js} alt="Javascript" />
+              <img src={react} alt="React" />
+              <img src={github} alt="GitHub" />
+          </div>
+        </div>  
     </section>
   )
 }
