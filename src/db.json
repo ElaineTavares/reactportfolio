@@ -8,7 +8,7 @@
     },
     {
         "capa":"/projeto_reactdnc.png",
-        "titulo":"React imóveis",
+        "titulo":"React Imóveis",
         "descricao": "Projeto com escolha de idioma, formulário com validações e localstorage",
         "tecnologias":"HTML, CSS, JavaScript e React.",
         "link": "https://reactdnc.vercel.app/"
