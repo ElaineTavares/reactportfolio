@@ -14,9 +14,10 @@
     width: 100%;  
 }
 
-.apresentacao h1{
+.apresentacao h2{
     font-size: 3rem;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .apresentacao p{
@@ -31,66 +32,17 @@ span{
     font-size: 2rem;  
 }
 
-.apresentacao .spiral-container{
-    width: 50%;
-    /* border: 2px solid red; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column;
-    gap: 80px;
-    position: absolute;
-    top: 350px;
-}
 
-.spiral-container .icones{
-    display: flex;
-    gap: 80px;
-}
 
-.apresentacao .spiral-container img{
-    top: 50%;
-    left: 50%;
-    transform-origin: 0 0;
-    animation: spiral 5s linear infinite;
-    width: 80px;
-    z-index: 9999;
-}
-.img:nth-child(1) {
-    transform: rotate(0deg) translateX(50px);
-}
-
-.img:nth-child(2) {
-    transform: rotate(90deg) translateX(50px);
-    animation-delay: 0.5s;
-}
-
-.img:nth-child(3) {
-    transform: rotate(180deg) translateX(50px);
-    animation-delay: 1s;
-}
-
-.img:nth-child(4) {
-    transform: rotate(270deg) translateX(50px);
-    animation-delay: 1.5s;
-}
-.img:nth-child(4) {
-    transform: rotate(350deg) translateX(50px);
-    animation-delay: 2s;
-}
-
-@keyframes spiral {
-    0% {
-        transform: rotate(0deg) translateX(180px);
+@media (max-width: 672px){
+    .apresentacao{  
+        padding-inline: 10px;
     }
-    100% {
-        transform: rotate(360deg) translateX(180px);
+
+    .apresentacao h2{
+        font-size: 2rem;   
     }
 }
 
- @media (max-width: 801px){
-    .apresentacao .spiral-container{
-    display: none;
-}
-}
+
 

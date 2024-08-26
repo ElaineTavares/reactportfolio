@@ -52,17 +52,7 @@ export default function Apresentacao() {
             </p>
             <Botao texto="Currículo" link="https://drive.google.com/file/d/1wKbyEV9JdjAJgWDfTpMNsyhEH2DMRILb/view?usp=sharing"/>
         </div> 
-        <div class="spiral-container">
-          <div className='icones'>
-              <img className='html' src={html} alt="html" />
-              <img src={css} alt="css" />
-          </div>
-          <div className='icones'>
-              <img src={js} alt="Javascript" />
-              <img src={react} alt="React" />
-              <img src={github} alt="GitHub" />
-          </div>
-        </div>  
+        
     </section>
   )
 }
