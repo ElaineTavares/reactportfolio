@@ -17,7 +17,7 @@ export default function Projetos(props) {
         <h2>Projetos</h2>
         <div className="container">
             {db.map((item) => {
-                return <div className="card" data-aos="fade-left">
+                return <div className="card" data-aos="fade-up">
                             <img src={item.capa} alt={item.titulo} />
                             <div className="texto">
                                 <h3>{item.titulo}</h3>

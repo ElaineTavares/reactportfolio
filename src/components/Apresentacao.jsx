@@ -44,7 +44,7 @@ export default function Apresentacao() {
 
   return (
     <section className="apresentacao" id='apresentacao'>
-        <div className='container' data-aos="fade-up-right">
+        <div className='container' data-aos="zoom-in-up">
             <h2>Bem-vindo ao meu Portfólio!</h2>
             <div className='cursor'></div>
             <h4>Olá, eu sou <span>{text}</span></h4>   
