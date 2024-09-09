@@ -2,11 +2,8 @@ import React from 'react'
 import './Apresentacao.css'
 import Botao from './Botao'
 import { useEffect, useState } from 'react'
-import html from '../imagens/tecnologia_html.svg'
-import css from '../imagens/tecnologia_css.svg'
-import js from '../imagens/tecnologia_js.svg'
-import react from '../imagens/tecnologia_react.svg'
-import github from '../imagens/tecnologia_github.svg'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 export default function Apresentacao() {
   const [text, setText] = useState('');
@@ -41,9 +38,13 @@ export default function Apresentacao() {
     }
   }
 
+  useEffect(() => {
+    AOS.init({duration: 1000})
+  }, [])
+
   return (
     <section className="apresentacao" id='apresentacao'>
-        <div className='container'>
+        <div className='container' data-aos="fade-up-right">
             <h2>Bem-vindo ao meu Portfólio!</h2>
             <div className='cursor'></div>
             <h4>Olá, eu sou <span>{text}</span></h4>   

@@ -1,11 +1,17 @@
-import React from 'react'
+import {React, useEffect} from 'react'
 import './LinhaDoTempo.css'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 export default function LinhaDoTempo() {
+    useEffect(() => {
+        AOS.init({duration: 1000})
+      }, [])
+
   return (
     <section className="linhaDoTempo" id='linhaDoTempo'>
         <h2>Linha do Tempo</h2>
-        <div className="container">
+        <div className="container" data-aos="zoom-in-up">
             <div className="card">
                 <p>2021</p>
                 <div className='linha'></div>

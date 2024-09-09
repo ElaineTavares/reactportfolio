@@ -1,4 +1,4 @@
-import React from 'react'
+import {React, useEffect} from 'react'
 import './Footer.css'
 import { MdCopyright } from "react-icons/md";
 import { CiPhone } from "react-icons/ci";
@@ -6,12 +6,18 @@ import { MdOutlineMail } from "react-icons/md";
 import linkedin from '../imagens/linkedin.svg'
 import github from '../imagens/github.svg'
 import whats from '../imagens/whats.svg'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 
 
 export default function Footer() {
+    useEffect(() => {
+        AOS.init({duration: 1000})
+      }, [])
+
   return (
-    <footer className="footer">
+    <footer className="footer" data-aos="fade-up">
         <h2>Desenvolvido por Elaine Tavares <MdCopyright /> 2024</h2> 
         <div className="container">
             <div className="contatos">
