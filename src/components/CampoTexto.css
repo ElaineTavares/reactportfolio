@@ -1,0 +1,11 @@
+.campo_texto input{
+    padding: 15px;
+    width: 100%;
+    color: #000000;
+    outline: none;
+   
+}
+
+.campo_texto input::placeholder{
+    color: #000000;
+}

@@ -7,6 +7,7 @@
     justify-content: center;
     padding-inline: 80px;
     position: relative;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
 }
 
 .apresentacao .container{   

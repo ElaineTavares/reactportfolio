@@ -5,6 +5,7 @@
     /* border: 2px solid blue; */
     padding-top: 50px;
     padding-bottom: 50px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
 }
 
 .projetos h2{
