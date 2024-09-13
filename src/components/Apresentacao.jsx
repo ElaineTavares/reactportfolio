@@ -47,7 +47,7 @@ export default function Apresentacao() {
         <div className='container' data-aos="zoom-in-up">
             <h2>Bem-vindo ao meu Portfólio!</h2>
             <div className='cursor'></div>
-            <h4>Olá, eu sou <span>{text}</span></h4>   
+            <h4 className='frase_de_apresentacao'>Olá, eu sou <span className='palavras_digitadas'>{text}</span></h4>   
             <p>Sou formada em Tecnologia em Gestão Financeira e, ao longo do tempo, desenvolvi uma paixão pelo Desenvolvimento Web, o que me levou a buscar uma transição de carreira para essa área. Tenho competências em GitHub, HTML, CSS, JavaScript e React, que são as principais ferramentas que utilizo para construir soluções web. <br />
               Além disso, tive a oportunidade de atuar como voluntária em Desenvolvimento Front-end no Instituto Capoeira Social, onde pude aplicar e aprimorar meus conhecimentos em um projeto real. <br /> Atualmente, sou universitária no curso Tecnólogo de Sistemas para Internet, o que reforça minha dedicação e compromisso em consolidar minha carreira na área de Desenvolvimento Web.
             </p>

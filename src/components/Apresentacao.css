@@ -43,7 +43,20 @@ span{
     .apresentacao h2{
         font-size: 2rem;   
     }
+
+    .frase_de_apresentacao{
+        /* border: 2px solid #ffffff; */
+        height: 80px;
+    }
 }
+
+@media (max-width: 400px){
+    .frase_de_apresentacao{
+        /* border: 2px solid #ffffff; */
+        height: 100px;
+    }
+}
+
 
 
 

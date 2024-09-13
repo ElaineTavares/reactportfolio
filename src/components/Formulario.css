@@ -37,7 +37,7 @@
     border-radius: 18px;
     border: none; 
     margin: 0 auto;
-    margin-top: 15px;
+    margin-top: 20px;
     transition: .5s;
 }
 
@@ -51,6 +51,24 @@
     text-align: center;
     color: green;
     font-weight: bold;
+    font-size: 22px;
+}
 
+@media(max-width: 672px) {
+    .formulario form{
+        width: 90%;     
+    }
+    
+}
 
+@media (max-width: 400px){
+    .formulario form{
+        padding: 10px;
+        
+    }
+
+    .formulario form .msg_sucesso{
+        /* border: 2px solid #fff; */
+        font-size: 18px;
+    }
 }
