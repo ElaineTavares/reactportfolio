@@ -1,4 +1,4 @@
-import React from 'react'
+import { useEffect } from 'react'
 import './Footer.css'
 import { MdCopyright } from "react-icons/md";
 import { CiPhone } from "react-icons/ci";
