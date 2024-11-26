@@ -1,30 +1,38 @@
-import React from 'react'
+import {React, useEffect} from 'react'
 import './LinhaDoTempo.css'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 export default function LinhaDoTempo() {
+    useEffect(() => {
+        AOS.init({duration: 1000})
+      }, [])
+
   return (
     <section className="linhaDoTempo" id='linhaDoTempo'>
         <h2>Linha do Tempo</h2>
-        <div className="container">
+        <div className="container" data-aos="zoom-in-up">
             <div className="card">
                 <p>2021</p>
                 <div className='linha'></div>
-                <p>Eu estudava Tecnologia em Gestão Financeira e estava estagiando em minha área de estudo na empresa de eventos Stylus, onde eu atuava no atendimento ao público, fato o qual me proporcionou desenvoltura nas relações interpessoais. Eu atuava em modelo de trabalho híbrido.</p>
+                <p>Enquanto estudava Tecnologia em Gestão Financeira, tive a oportunidade de estagiar na empresa de eventos Stylus. Lá, atuei no atendimento ao público, o que me proporcionou uma significativa desenvoltura nas relações interpessoais. Esse período foi marcado por um modelo de trabalho híbrido, que me permitiu flexibilidade e a experiência de conciliar diferentes ambientes de trabalho.</p>
             </div>
             <div className="card">
                 <p>2022</p>
                 <div className='linha'></div>
-                <p>Após formada segui carreira na área financeira, entrando na empresa Grupo Salta Educação como assistente de contas a pagar, a empresa é maravilhosa e atualmente permaneço trabalhando nesta. Utilizo os sistemas Totvs e Fluig garantindo o pagamento correto das contas devidas.</p>
+                <p>Após me formar, segui carreira na área financeira e ingressei no Grupo Salta Educação como assistente de contas a pagar. A empresa é maravilhosa, e atualmente continuo trabalhando nela. No meu dia a dia, utilizo os sistemas Totvs e Fluig para garantir que todas as contas sejam pagas corretamente e dentro dos prazos estabelecidos.</p>
             </div>
             <div className="card">
                 <p>2023</p>
                 <div className='linha'></div>
-                <p>Nesse ano eu conheci o desenvolvimento Web e simplesmente me apaixonei, passei a consumir muito conteúdo de tecnologia e me matriculei em cursos online, obtive muito conhecimento e quanto mais eu aprendia mais eu estudava, e passei a desenvolver alguns projetos de estudo.</p>
+                <p>Neste ano, descobri o Desenvolvimento Web e foi amor à primeira vista. Imediatamente, comecei a consumir muito conteúdo de tecnologia e me matriculei em diversos cursos online. Quanto mais aprendia, mais me aprofundava, e esse entusiasmo me levou a desenvolver vários projetos de estudo, que têm sido fundamentais para meu crescimento e aprendizado na área.</p>
             </div>
             <div className="card">
                 <p>2024</p>
                 <div className='linha'></div>
-                <p>Consegui meu primeiro trabalho como freelance Front End para uma consultora imobiliária autônoma e tive a felicidade de ingressar como desenvolvedora Front End voluntária no projeto sem fins lucrativos, Instituto Capoeira Social. Sigo com meus estudos de Tecnologia pela Alura e também pela Escola Dnc.</p>
+                <p>Tive a felicidade de ingressar como desenvolvedora Front End voluntária no Instituto Capoeira Social, um projeto sem fins lucrativos, onde pude contribuir e expandir minhas habilidades.
+
+                Sigo dedicando-me aos estudos de Tecnologia pela Alura, pela Escola DNC e pela faculdade Uniasselvi, o que me permite estar em constante aprimoramento e alinhada com as melhores práticas do mercado.</p>
             </div>
         </div>
     </section>

@@ -5,6 +5,7 @@
     padding-top: 50px;
     padding-bottom: 100px;
     /* border: 2px solid red; */
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
 }
 
 .tecnologias h2{
@@ -52,3 +53,4 @@
 .tecnologias .container .card p{
     font-weight: bold;
 }
+

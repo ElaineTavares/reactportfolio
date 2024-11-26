@@ -1,12 +1,5 @@
 [
     {
-    "capa":"/crud-operations.png",
-    "titulo":"CRUD operations",
-    "descricao": "Este é um projeto desenvolvido em React. Ele permite criar, ler, atualizar e deletar posts, simulando um sistema completo de gerenciamento de conteúdo.",
-    "tecnologias":"HTML, CSS, JavaScript, React e MockAPI .",
-    "link": "https://crud-operations-ten-peach.vercel.app/"
-    },
-    {
     "capa":"/projeto_organopets.png",
     "titulo":"Organo Pets",
     "descricao": "Projeto que cria cards bonitinhos com as fotos dos seus pets, tem a funcionalidade de excluir card e alterar a cor.",

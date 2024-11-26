@@ -33,9 +33,9 @@ export default function Header() {
             <NavLink className='link' href='#linhaDoTempo'>Linha do Tempo</NavLink>
         </div>
         <div className="redes">
-            <a href="www.linkedin.com/in/elaine-tavares-b5797b1b0" target='blank'><img className='linkedin' src={linkedin} alt="linkedin" /></a>
+            <a href="https://www.linkedin.com/in/elaine-tavares-b5797b1b0/" target='blank'><img className='linkedin' src={linkedin} alt="linkedin" /></a>
             <a href="https://github.com/ElaineTavares" target='blank'><img className='github' src={github} alt="github" /></a>
-            <a href="https://api.whatsapp.com/send/?phone=5521984510746&text=Ol%C3%A1%2C+desejo+informa%C3%A7%C3%A3o+sobre+seu+serv&type=phone_number&app_absent=0" target='blank'><img className='whats' src={whats} alt="whatsapp" /></a>
+            <a href="https://wa.link/e86l8y" target='blank'><img className='whats' src={whats} alt="whatsapp" /></a>
         </div>    
     </header>
   )
