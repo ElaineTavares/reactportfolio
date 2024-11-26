@@ -2,7 +2,7 @@
     {
     "capa":"/crud-operations.png",
     "titulo":"CRUD operations",
-    "descricao": "Este é um projeto permite criar, ler, atualizar e deletar posts, simulando um sistema completo de gerenciamento de conteúdo.",
+    "descricao": "Este é um projeto que permite criar, ler, atualizar e deletar posts, simulando um sistema completo de gerenciamento de conteúdo.",
     "tecnologias":"HTML, CSS, JavaScript, React e mockAPI",
     "link": "https://crud-operations-ten-peach.vercel.app/"
 },
