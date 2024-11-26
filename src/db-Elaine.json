@@ -1,10 +1,17 @@
 [
     {
-    "capa":"/crud-operations.png",
-    "titulo":"CRUD operations",
-    "descricao": "Este é um projeto desenvolvido em React. Ele permite criar, ler, atualizar e deletar posts, simulando um sistema completo de gerenciamento de conteúdo.",
-    "tecnologias":"HTML, CSS, JavaScript, React e MockAPI .",
-    "link": "https://crud-operations-ten-peach.vercel.app/"
+        "capa":"/projeto_react_livros.png",
+        "titulo":"React Livros",
+        "descricao": "Projeto com as funcionalidades de capturar as informações digitadas nos inputs para criar cards para livros, excluir cards e alterar a cor dos componentes.",
+        "tecnologias":"HTML, CSS, JavaScript e React.",
+        "link": "https://reactlivros.vercel.app/"
+    },
+    {
+        "capa":"/projeto_reactdnc.png",
+        "titulo":"React Imóveis",
+        "descricao": "Projeto com escolha de idioma, formulário com validações e localstorage",
+        "tecnologias":"HTML, CSS, JavaScript e React.",
+        "link": "https://reactdnc.vercel.app/"
     },
     {
     "capa":"/projeto_organopets.png",
