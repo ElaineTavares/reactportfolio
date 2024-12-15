@@ -1,4 +1,3 @@
-import React from 'react'
 import './Apresentacao.css'
 import Botao from './Botao'
 import { useEffect, useState } from 'react'
@@ -51,7 +50,7 @@ export default function Apresentacao() {
             <p>Sou formada em Tecnologia em Gestão Financeira e, ao longo do tempo, desenvolvi uma paixão pelo Desenvolvimento Web, o que me levou a buscar uma transição de carreira para essa área. Tenho competências em GitHub, HTML, CSS, JavaScript e React, que são as principais ferramentas que utilizo para construir soluções web. <br />
               Além disso, tive a oportunidade de atuar como voluntária em Desenvolvimento Front-end no Instituto Capoeira Social, onde pude aplicar e aprimorar meus conhecimentos em um projeto real. <br /> Atualmente, sou universitária no curso Tecnólogo de Sistemas para Internet, o que reforça minha dedicação e compromisso em consolidar minha carreira na área de Desenvolvimento Web.
             </p>
-            <Botao texto="Currículo" link="https://drive.google.com/file/d/1wKbyEV9JdjAJgWDfTpMNsyhEH2DMRILb/view?usp=sharing"/>
+            <Botao texto="Currículo" link="https://drive.google.com/file/d/185vW5PRlwyjKza1pQpAMRi7pNhiDckQN/view?usp=drive_link"/>
         </div> 
         
     </section>

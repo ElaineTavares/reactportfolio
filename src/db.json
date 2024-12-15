@@ -1,5 +1,12 @@
 [
     {
+    "capa":"/projeto-weather.png",
+    "titulo":"Condições Climáticas",
+    "descricao": "Este projeto utiliza geolocalização para capturar automaticamente o clima do local atual do usuário, permite realizar buscas por cidades e exibe a previsão do tempo das próximas horas.",
+    "tecnologias":"HTML, CSS, JavaScript, React e axios",
+    "link": "https://weather-three-lemon.vercel.app/"
+},
+    {
     "capa":"/crud-operations.png",
     "titulo":"CRUD operations",
     "descricao": "Este é um projeto que permite criar, ler, atualizar e deletar posts, simulando um sistema completo de gerenciamento de conteúdo.",
